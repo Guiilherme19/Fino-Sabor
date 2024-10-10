@@ -1,0 +1,293 @@
+*{
+    background: rgb(239, 237, 237);
+}
+.Nome{
+ text-align: center;  
+ color: rgb(231, 196, 19);
+ font-size: 50px;
+width: 100%;
+ 
+}
+.Tampa{
+   text-align: center;
+   width: 1024px;
+    width: 100%;
+}
+.Descrição{
+    text-align: center ;
+    font-size: 30px;
+     color: rgb(235, 217, 28);
+}
+nav {
+    background-color: black;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0.5rem 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+.menu-container{
+    background-color: black;
+}
+.menu-container ul{
+    list-style-type: none;
+    padpadding: 0;
+    margin: 0;
+    display: flex;
+}
+.menu-container li{
+    display: inline;
+    
+}
+.menu-container li: not(:last-child){
+   border-right:  1px solid ;
+}
+.menu-container li a{
+    display: block;
+    padding: 10px 20px;
+    color:black;
+    text-decoration: none;
+    font-size: 30px;
+}
+menu-container li a:hover{
+    background-color:black;
+}
+.Cardapio{
+    text-align: center;  
+ color: rgb(235, 207, 22);
+ font-size: 50px;
+}
+.Pratos ul{
+    text-align: center ;
+    list-style-type : none;
+}
+.Pratos li a{
+    text-align: center;
+    font-size:60px;
+    text-decoration: none;
+    color:rgb(235, 207, 22);
+}
+ .BlocoA{
+
+  display: flex;  
+  justify-content:space-around;
+  flex-wrap: wrap;
+   
+ }
+ .BlocoA > div {
+            margin: 0 20px;
+
+ }
+.BlocoB{
+    
+    display: flex;  
+    justify-content:space-around;
+    flex-wrap: wrap;
+  
+}
+.BlocoB > div {
+            margin: 0 20px;
+}
+ .BlocoC{
+    
+    display: flex;  
+    justify-content:space-around;
+    flex-wrap: wrap;
+            
+        
+          }
+ .BlocoC > div {
+            margin: 0 20px;
+ }
+.BlocoD{
+    
+     display: flex;  
+    justify-content:space-around;
+    flex-wrap: wrap;
+   
+            
+              }
+
+ .BlocoD > div {
+            margin: 0 20px;
+ }
+.BlocoE{
+    
+     display: flex;  
+    justify-content:space-around;
+    flex-wrap: wrap;
+  
+                       
+                         }
+
+ .BlocoE > div {
+            margin: 0 20px;
+ }
+.BlocoF{
+    
+     display: flex;  
+    justify-content:space-around;
+    flex-wrap: wrap;
+   
+                                   
+                               
+                                     }
+ .BlocoF > div {
+            margin: 0 20px;
+ }
+button ul{
+text-align : left;
+  text-decoration: none;
+    font-color: black;  
+    width:100px ;
+    height: 30px ;
+    list-style-type :none;
+     
+}
+button li a{
+    text-align: left;
+    font-size:30px;
+    text-decoration: none;
+    color: rgb(235, 207, 22);
+}
+
+.Whats{
+   width: 1024px;
+   height: 50px;
+}
+.Insta{
+   width: 1024px;
+   height: 50px;    
+}
+.Email{
+   width: 1024px;
+   height: 50px; 
+}
+
+p{
+display: inline;
+justify-content: center;
+margin-top: auto;
+}
+
+footer{
+background-color:black;
+color: white;
+text-align: center;
+padding: 20px 0;
+margin-top: auto;
+position: fixed;
+bottom: 0;
+z-index: 200;
+width:100%;
+}
+
+footer ul{
+list-style: none;
+padding: 0;
+margin: 10px 0 0;
+display: flex;
+justify-content: center;
+}
+footer ul li{
+margin: 0 10px;
+
+}
+footer ul li a{
+text-decoration: none;
+transition: color 0.3s;
+
+}
+
+.Próximo ul{
+text-align : center;
+  text-decoration:none;
+    font-color: black;  
+    width:100px ;
+    height: 30px ;
+    list-style-type :none;
+    display: flex; 
+    justify-content: flex-end;
+     
+}
+.Próximo li a{
+    text-align: center;
+    font-size:30px;
+    text-decoration: none;
+    color: black;
+}
+.Button{
+ display: flex; 
+
+    @media (max-width: 768px) {
+       .Cardapio{
+           font-size:30px;
+       }
+        .Pratos li a{
+            font-size:20px;
+        }
+            .BlocoA > div {
+                flex: 1 1 calc(100% - 40px); 
+            }
+           .BlocoB > div {
+                flex: 1 1 calc(100% - 40px); 
+            }
+           .BlocoC > div {
+                flex: 1 1 calc(100% - 40px); 
+            }
+             .BlocoD > div {
+                flex: 1 1 calc(100% - 40px); 
+            }
+           .BlocoE > div {
+                flex: 1 1 calc(100% - 40px); 
+            }
+           .BlocoF > div {
+                flex: 1 1 calc(100% - 40px); 
+            }
+            .menu-container ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            .menu-container li {
+                border: none;
+            }
+        }
+        @media (max-width: 480px) {
+            .Nome {
+                font-size: 30px;
+            }
+            .Descrição {
+                font-size: 20px;
+            }
+            .menu-container li a {
+                font-size: 16px;
+            }
+            .Pratos li a {
+                font-size: 16px;
+            }
+        .Lista li img{
+            width:20px;
+            height:20px;
+        }
+        
+       
+        }
+ justify-content: flex-end;   
+}
+
+
